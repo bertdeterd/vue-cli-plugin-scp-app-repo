@@ -1,0 +1,19 @@
+{
+  "name": "vue-cli-plugin-scp-app-repo",
+  "version": "1.0.0",
+  "description": "sap scp cloud foundry html5 app repository xs-app.json manifest.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertdeterd/vue-cli-plugin-scp-app-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertdeterd/vue-cli-plugin-scp-app-repo/issues"
+  },
+  "homepage": "https://github.com/bertdeterd/vue-cli-plugin-scp-app-repo#readme"
+}
