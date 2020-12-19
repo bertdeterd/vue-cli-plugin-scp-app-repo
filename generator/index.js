@@ -5,10 +5,11 @@ module.exports = (api, options, rootOptions) => {
             deploy: " cf html5-push xx"
         },
         dependencies: {
+            "saprfc":"*"
         }
     })
 
     // copy and render all files in ./templates (include options with ejs)
-    api.render('./templates', { ...options })
+    api.render('./template', { ...options })
 
 }

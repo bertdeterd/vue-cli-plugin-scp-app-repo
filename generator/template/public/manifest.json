@@ -1,0 +1,27 @@
+{
+    "_version": "1.9.0",
+    "sap.cloud": {
+      "public": true,
+      "service": "eye-you"
+    },
+    "sap.app": {
+      "id": "<%= options.appname %>",
+      "type": "application",
+      "applicationVersion": {
+        "version": "1.0.0"
+      },
+      "crossNavigation": {
+        "inbounds": {
+          "intent1": {
+            "signature": {
+              "parameters": {},
+              "additionalParameters": "allowed"
+            },
+            "semanticObject": "Dynamic",
+            "action": "display"
+          }
+        }
+      }
+        
+    }
+  }
