@@ -2,10 +2,10 @@
     "_version": "1.9.0",
     "sap.cloud": {
       "public": true,
-      "service": "srv-<%= options.appname %>"
+      "service": "<%= options.appservice %>"
     },
     "sap.app": {
-      "id": "app-<%= options.appname %>",
+      "id": "<%= options.appname %>",
       "type": "application",
       "applicationVersion": {
         "version": "1.0.0"

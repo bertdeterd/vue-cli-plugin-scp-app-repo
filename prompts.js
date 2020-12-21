@@ -2,8 +2,17 @@ module.exports = [
  
     {
         type: 'input',
+        name: 'appservice',
+        message: 'Provide unique UI prefix (sap.cloud.service)'
+    },
+
+    {
+        type: 'input',
         name: 'appname',
-        message: 'What is your application name (will be part of url!)?'
+        message: 'Provide unique appication name (sap.app.id)'
     }
+
+    
+
    
 ]

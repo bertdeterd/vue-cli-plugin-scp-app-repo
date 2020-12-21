@@ -1,7 +1,7 @@
 {
     "xsappname": "<%= options.appname %>",
     "tenant-mode": "dedicated",
-    "description": "application <%= options.appname %>",
+    "description": "Application <%= options.appname %>",
     "scopes": [
       {
         "name": "uaa.user",
@@ -10,7 +10,7 @@
     ],
     "role-templates": [
       {
-        "name": "<%= options.appname %>_Token_Exchange",
+        "name": "<%= options.appname %>_tokenexchange",
         "description": "UAA",
         "scope-references": [
           "uaa.user"
