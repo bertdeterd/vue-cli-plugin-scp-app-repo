@@ -2,10 +2,10 @@
     "_version": "1.9.0",
     "sap.cloud": {
       "public": true,
-      "service": "eye-you"
+      "service": "srv-<%= options.appname %>"
     },
     "sap.app": {
-      "id": "<%= options.appname %>",
+      "id": "app-<%= options.appname %>",
       "type": "application",
       "applicationVersion": {
         "version": "1.0.0"
