@@ -1,0 +1,21 @@
+{
+    "welcomeFile": "index.html",
+    "authenticationMethod": "route",
+    "routes": [
+     
+      {
+        "authenticationType": "xsuaa",
+        "source": "^/sap/opu/odata/sap/<ODATA SRV>/(.*)$",
+        "destination": "<YOUR DESTINATION : SEE SAP CLOUD COCKPIT>"
+      },
+   
+      {
+        "authenticationType": "xsuaa",
+        "source": "^(.*)$",
+        "target": "$1",
+        "service": "html5-apps-repo-rt"
+      }
+  
+     
+    ]
+  }
