@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-scp-app-repo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sap scp cloud foundry html5 app repository xs-app.json manifest.json",
   "main": "index.js",
   "scripts": {
