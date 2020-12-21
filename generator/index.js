@@ -2,7 +2,8 @@ module.exports = (api, options, rootOptions) => {
     // modify package.json fields
     api.extendPackage({
         scripts: {
-            deploy: " cf html5-push xx"
+            predeploy: "npm run build",
+            deploy: "cf html5-push -d ./dist"
         },
         dependencies: {
             "saprfc":"*"
